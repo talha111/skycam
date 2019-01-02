@@ -77,10 +77,11 @@
       <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Work</h2>
       
       <p>
-        We have extended our present work to perform <strong>future frame semantic segmentation</strong> on sky videos in order to further improve the results of our solar irradiance forecasting. Our initial results and proposed approach <a href="https://arxiv.org/pdf/1812.10786.pdf">is available on arXiv.</a> The below figure lists sample semantic segmentation of <em>now</em> predictions. The three rows in the illustration are a sequence of input frames, the corresponding ground truth and semantic masks generated from our approach, respectively.
+        We have extended our present work to perform <strong>future frame semantic segmentation</strong> on sky videos in order to further improve the results of our solar irradiance forecasting. Our initial results and proposed approach <a href="https://arxiv.org/pdf/1812.10786.pdf">is available on arXiv.</a> The below gif shows sample semantic segmentation of <em>now</em> predictions. The three images in the illustration are a sequence of input frames, the corresponding ground truth and semantic masks generated from our approach, respectively.
       </p>
 
-      <p><center><img src="semseg.png" style="max-width:60%;"></center></p>
+      <!-- <p><center><img src="semseg.png" style="max-width:60%;"></center></p> -->
+      <p><center><img src="combined_2.gif" style="max-width:70%;"></center></p>
       
 
       <!-- <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
