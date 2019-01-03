@@ -11,24 +11,19 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Solar Irradiance forecasting using a Sky-Camera</h1>
-      <h2 class="project-tagline">Project Page for our paper titled "A deep learning approach to solar-irradiance forecasting in sky-videos"</h2>
+      <h1 class="project-name">Solar Irradiance forecasting using Sky-Camera</h1>
+      <h2 class="project-tagline">IBM Research, India</h2>
       <!-- <h2 class="project-tagline">Talha Ahmad Siddiqui, Samarth Bharadwaj, Shivkumar Kalyanaraman (2019)</h2> -->
       <!-- <a href="https://drive.google.com/file/d/1fKMXoaWLJaR985eILwY1nfaxXB2x7x5Y/view?usp=sharing" class="btn">View Paper</a> -->
-      <a href="https://drive.google.com/file/d/1fKMXoaWLJaR985eILwY1nfaxXB2x7x5Y/view?usp=sharing" class="btn">View Paper</a>
-      <a href="#" class="btn">Code (releasing soon)</a>
-      <a href="#" class="btn">Data (releasing soon)</a>
+      <a href="https://drive.google.com/file/d/1fKMXoaWLJaR985eILwY1nfaxXB2x7x5Y/view?usp=sharing" class="btn">View Paper on Solar <br>Irradiance forecasting (WACV' 19)</a>
+      <a href="https://arxiv.org/pdf/1812.10786.pdf" class="btn">View Paper on Sky Video <br>Semantic Segmentation (arxiv.org)</a>
+      <a href="#" class="btn">Data <br>(releasing soon)</a>
     </section>
 
     <section class="main-content">
 
       <p>
-        Production of alternative energy sources, such as solar energy, are governed by the vagaries of weather. For instance, indoor heating demands are inversely correlated with solar radiation availability. The important question is how does one estimate solar energy production efficiently in order to solve the demand-supply mismatch in alternate energy. The below figure depicts this scenario graphically. 
-      </p>
-
-      <p><center><img src="energy.png" style="max-width:50%;"></center></p>
-
-      <p>
+        Production of alternative energy sources, such as solar energy, are governed by the vagaries of weather. <a href="http://www.e-hub.org/the-challenge.html">For instance</a>, indoor heating demands are inversely correlated with solar radiation availability. The important question is how does one estimate solar energy production efficiently in order to solve the demand-supply mismatch in alternate energy.
         Weather phenomenon is a complex physical causation that are difficult to model accurately. Existing solutions to solar irradiance prediction and forecasting, are <strong>expensive</strong> (high subscription fee), <strong>require satellite readings</strong> (high computational cost and infrastructure) and are prone to <strong>high latency</strong> (two measurements per day). We propose in our research work the use of sky-camers to forecast solar irradiance.
       </p>
       <!-- <p> Ahead-of-time forecasting of incident solar-irradiance on a panel is indicative of energy yield and is essential for efficient grid distribution and planning. Typical approaches are based on meteorological physics models whose parameters are tuned by coarse-grained radiometric tiles sensed from geo-satellites.
@@ -39,10 +34,29 @@
       <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a Sky-Camera?</h2>
 
       <p>
-        A sky-camera is an inexpensive upward facing wide-lensed camera that can be easily deployed in solar farms and roof-tops. The high accuracy and low latency of predictions with the help of a sky-camera can give rise to many interesting applications such as <strong>demand-supply matching, energy storage optimization, and predictive panel maintenance solutions.</strong> The figure below shows an example of commercial sky-cameras deployed in the vicinity of solar farms and some sample unprocessed frames from two different sky-cameras. 
+        A sky-camera is an inexpensive upward facing wide-lensed camera that can be easily deployed in solar farms and roof-tops. The high accuracy and low latency of predictions with the help of a sky-camera can give rise to many interesting applications such as <strong>demand-supply matching, energy storage optimization, and predictive panel maintenance solutions.</strong> <a href = "https://www.ibm.com/blogs/research/2015/10/staring-at-the-sun/">The figure below </a>shows an example of sky-camera deployed in the vicinity of solar farms and some sample unprocessed frames from two different sky-cameras. Feng et. al. [2] in their work talk about a similar application of short term GHI forecasting based on sky images. There have been other interesting applications as well such as the work by Shao et. al. [1] that talks about forecasting solar irradiance for use in solar race cars. 
       </p>
 
+      <h4>
+      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read about other works on solar energy here</h4>
+
+      <ul class="task-list">
+      <li><a href="https://asmarterplanet.com/blog/2015/10/chasing-sun-cognitive-technology.html">Chasing the Sun</a> – IBM Smarter Planet blog </li>
+      <li><a href = "http://169.54.164.61/index.php/2015/10/01/measuring-the-sun/">Measuring the Sun</a> – IBM Research blog</li>
+      </ul>
+
       <p><center><img src="skycamera.png" style="max-width:50%;"></center></p>
+
+
+      <h2>
+      <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dataset</h2>
+      <p>
+      We introduce two publicly available datasets of sky-videos, namely Colorado [3] and Arizona [4] dataset with over a million images. Below images show the respective sky cameras installed at each of the two different locations. We outperform meteorological physics models whose parameters are tuned by coarse grained radiometric data sensed from geo-satellites for nowcasting and upto 4 hours ahead-of-time [5][6]. 
+      </p>
+       <p><center><img src="concat.png" style="max-width:50%;"></center>
+           
+       </p>
+
 
       <h2>
       <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proposed Approach</h2>
@@ -83,6 +97,22 @@
       <!-- <p><center><img src="semseg.png" style="max-width:60%;"></center></p> -->
       <p><center><img src="combined_2.gif" style="max-width:70%;"></center></p>
       
+      <h2>
+      <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+      [1] Shao, Xiaoyan, et al. "Solar irradiance forecasting by machine learning for solar car races." Big Data (Big Data), 2016 IEEE International Conference on. IEEE, 2016.
+      <br>[2] Feng, Cong, et al. "Short-term global horizontal irradiance forecasting based on sky imaging and pattern recognition." Power & Energy Society General Meeting, 2017 IEEE. IEEE, 2017.
+      <br>[3] NREL Solar Radiation Research Laboratory (SRRL). Baseline Measurement System (BMS) (https://midcdmz.nrel.gov/srrl_bms/), 1981.
+      <br>[4] T. Pickering. The mmt all-sky camera. In SPIE Astronomical Telescopes+ Instrumentation, pages 62671A–62671A. International Society for Optics and Photonics, 2006.
+      <br>[5] G. NOAA. Global forecast system. National Centers for Environmental Prediction (www.ncdc.noaa.gov), 2019.
+      <br>[6] European Centre for Medium Range Weather Forecasts (ECMWF),. https://www.ecmwf.int/
+
+
+
+
+
+
+
+
 
       <!-- <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
 
