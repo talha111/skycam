@@ -16,7 +16,7 @@
       <!-- <h2 class="project-tagline">Talha Ahmad Siddiqui, Samarth Bharadwaj, Shivkumar Kalyanaraman (2019)</h2> -->
       <!-- <a href="https://drive.google.com/file/d/1fKMXoaWLJaR985eILwY1nfaxXB2x7x5Y/view?usp=sharing" class="btn">View Paper</a> -->
       <a href="https://drive.google.com/file/d/1fKMXoaWLJaR985eILwY1nfaxXB2x7x5Y/view?usp=sharing" class="btn">View Paper on Solar <br>Irradiance forecasting (WACV' 19)</a>
-      <a href="https://arxiv.org/pdf/1812.10786.pdf" class="btn">View Paper on Sky Video <br>Semantic Segmentation (arxiv.org)</a>
+      <a href="https://arxiv.org/abs/1812.10786" class="btn">View Paper on Sky Video <br>Semantic Segmentation (arxiv.org)</a>
       <a href="#" class="btn">Data <br>(releasing soon)</a>
     </section>
 
@@ -41,8 +41,8 @@
       <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read about other works on solar energy here</h4>
 
       <ul class="task-list">
-      <li><a href="https://asmarterplanet.com/blog/2015/10/chasing-sun-cognitive-technology.html">Chasing the Sun</a> – IBM Smarter Planet blog </li>
-      <li><a href = "http://169.54.164.61/index.php/2015/10/01/measuring-the-sun/">Measuring the Sun</a> – IBM Research blog</li>
+      <li><a href="https://www.ibm.com/blogs/think/2015/10/chasing-sun-cognitive-technology/">Chasing the Sun</a> – IBM Smarter Planet blog </li>
+      <li><a href = "https://www.ibm.com/blogs/research/2015/10/measuring-the-sun/">Measuring the Sun</a> – IBM Research blog</li>
       </ul>
 
       <p><center><img src="skycamera.png" style="max-width:50%;"></center></p>
@@ -91,7 +91,7 @@
       <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Work</h2>
       
       <p>
-        We have extended our present work to perform <strong>future frame semantic segmentation</strong> on sky videos in order to further improve the results of our solar irradiance forecasting. Our initial results and proposed approach <a href="https://arxiv.org/pdf/1812.10786.pdf">is available on arXiv.</a> The below gif shows sample semantic segmentation of <em>now</em> predictions. The three images in the illustration are a sequence of input frames, the corresponding ground truth and semantic masks generated from our approach, respectively.
+        We have extended our present work to perform <strong>future frame semantic segmentation</strong> on sky videos in order to further improve the results of our solar irradiance forecasting. Our initial results and proposed approach <a href="https://arxiv.org/abs/1812.10786">is available on arXiv.</a> The below gif shows sample semantic segmentation of <em>now</em> predictions. The three images in the illustration are a sequence of input frames, the corresponding ground truth and semantic masks generated from our approach, respectively.
       </p>
 
       <!-- <p><center><img src="semseg.png" style="max-width:60%;"></center></p> -->
